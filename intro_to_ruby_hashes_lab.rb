@@ -1,10 +1,10 @@
 def new_hash
-  new_hash = { :name => "Trey", :activities => "Basketball"}
-  new_hash
+  Hash.new
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  ricardo = {:age => 32, :sex => "Yes Please"}
 end
 
 def pioneer
