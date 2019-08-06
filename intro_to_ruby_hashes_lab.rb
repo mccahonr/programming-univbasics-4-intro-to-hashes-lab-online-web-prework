@@ -33,7 +33,7 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   groceries = {"apples" => 2}
   if groceries["apples"]
-    groceries["apples"] +=1
+    groceries["apples"] += 1
   else
     groceries[] = 1
   end
