@@ -35,6 +35,6 @@ def update_counting_hash(hash, key)
   if groceries["apples"]
     groceries["apples"] += 1
   else
-    groceries[] = 1
+    groceries["apples"] = 1
   end
 end
