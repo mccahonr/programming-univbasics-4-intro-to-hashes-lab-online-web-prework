@@ -1,5 +1,5 @@
 def new_hash
-  Hash.new
+  new_hash = { :name => "Trey", :activities => "Basketball"}
 end
 
 def my_hash
